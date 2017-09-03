@@ -13,7 +13,7 @@ RUN yum update -y && \
     cd /tmp && tar zxf /tmp/esniper.tgz && cd /tmp/esniper-2-33-0; ./configure; make; make install && \
     mkdir -p /esniper/logs
 
-ADD .esniper / 
-COPY entrypoint.sh /entrypoint.sh
+COPY .esniper / 
+COPY entrypoint.sh /
 
 ENTRYPOINT "./entrypoint.sh"

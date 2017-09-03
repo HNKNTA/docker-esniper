@@ -1,0 +1,2 @@
+# put here id and price, for example:
+# 9298389738 25
