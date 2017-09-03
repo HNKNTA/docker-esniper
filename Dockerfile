@@ -1,10 +1,10 @@
 # Basic install of esniper 
 #
 # Currently installs esniper 2-33-0
-# Version 0.2 Mar-13-2017
+# Version 0.3
 
 FROM centos:latest
-MAINTAINER Felix G. version: 0.1
+MAINTAINER HNKNTA hnknta@gmail.com
 
 RUN yum update -y && \
     yum install -y gcc libcurl-devel make && \
